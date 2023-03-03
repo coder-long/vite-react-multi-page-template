@@ -1,0 +1,10 @@
+diff --git a/node_modules/vite-plugin-mpa/dist/index.js b/node_modules/vite-plugin-mpa/dist/index.js
+index cb89cea..4ebb159 100644
+--- a/node_modules/vite-plugin-mpa/dist/index.js
++++ b/node_modules/vite-plugin-mpa/dist/index.js
+@@ -5312,4 +5312,4 @@ function mpa(userOptions = {}) {
+ }
+ 
+ 
+-exports.default = mpa;
++module.exports = mpa;
